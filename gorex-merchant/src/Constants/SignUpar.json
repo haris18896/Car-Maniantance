@@ -1,0 +1,143 @@
+{
+  "fields": [
+    {
+      "row": [
+        {
+          "id": "1",
+          "fieldType": "text",
+          "isRequired": true,
+          "isUpdate": true,
+          "label": "الاسم الاول",
+          "name": "الاسم الاول",
+          "xmlName": "name",
+          "popupText": "",
+          "helpNote": "",
+          "placeHolder": "Enter First Name",
+          "errorMessage": "Field Required!",
+          "value": "",
+          "regex": "^[a-zA-z]+([\\s][a-zA-Z]+)*$"
+        },
+        {
+          "id": "1",
+          "fieldType": "text",
+          "isRequired": true,
+          "isUpdate": true,
+          "label": "اسم العائلة",
+          "name": "اسم العائلة",
+          "xmlName": "last_name",
+          "popupText": "",
+          "helpNote": "",
+          "placeHolder": "Enter Last Name",
+          "errorMessage": "Field Required!",
+          "value": "",
+          "regex": "^[a-zA-z]+([\\s][a-zA-Z]+)*$"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "fieldType": "text",
+      "isRequired": true,
+      "isUpdate": true,
+      "label": "رقم الجوال",
+      "name": "رقم الجوال",
+      "xmlName": "phone",
+      "popupText": "",
+      "helpNote": "",
+      "placeHolder": "Enter رقم الجوال",
+      "errorMessage": "Field Required!",
+      "value": ""
+    },
+    {
+      "id": "3",
+      "fieldType": "text",
+      "isRequired": false,
+      "isUpdate": false,
+      "label": " عنوان البريد الإلكتروني",
+      "name": "عنوان البريد الإلكتروني",
+      "xmlName": "email",
+      "popupText": "",
+      "helpNote": "",
+      "placeHolder": "Enter Email Address",
+      "errorMessage": "Field Required!",
+      "value": ""
+    },
+    {
+      "row": [
+        {
+          "id": "4",
+          "fieldType": "date",
+          "isRequired": true,
+          "isUpdate": true,
+          "label": "تاريخ الميلاد",
+          "name": "تاريخ الميلاد",
+          "xmlName": "dob",
+          "popupText": "",
+          "placeHolder": "يرجى الاختيار",
+          "helpNote": "",
+          "errorMessage": "Select Valid Date of Birth!",
+          "regex": ""
+        },
+        {
+          "id": "4",
+          "fieldType": "select",
+          "isRequired": true,
+          "isUpdate": true,
+          "label": "الجنس",
+          "name": "الجنس",
+          "xmlName": "gender",
+          "popupText": "",
+          "placeHolder": "Please Select Gender",
+          "helpNote": "",
+          "options": [
+            {
+              "label": "يرجى تحديد الجنس",
+              "value": ""
+            },
+            {
+              "label": "ذكر",
+              "value": "male"
+            },
+            {
+              "label": "أنثى",
+              "value": "female"
+            }
+          ],
+          "errorMessage": "Enter Valid Gender!",
+          "regex": ""
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "fieldType": "password",
+      "isRequired": true,
+      "isUpdate": false,
+      "name": "كلمة المرور",
+      "label": " كلمة المرور",
+      "xmlName": "password",
+      "popupText": "",
+      "helpNote": "",
+      "placeHolder": "Enter كلمة المرور",
+      "errorMessage": "Minimum eight characters, at least one uppercase letter, one lowercase letter, one number, and one special character",
+      "value": "",
+      "regex": "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$"
+    },
+    {
+      "id": "6",
+      "fieldType": "password",
+      "isRequired": true,
+      "isUpdate": false,
+      "name": "تأكيد كلمة المرور",
+      "label": " تأكيد كلمة المرور",
+      "xmlName": "confirm_password",
+      "popupText": "",
+      "helpNote": "",
+      "placeHolder": "Enter تأكيد كلمة المرور",
+      "errorMessage": "Minimum eight characters, at least one uppercase letter, one lowercase letter, one number, and one special character",
+      "value": "",
+      "regex": "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$"
+    }
+  ],
+  "errorMessages": {}
+}

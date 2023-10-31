@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.52" height="24.571" viewBox="0 0 27.52 24.571">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6365" data-name="Rectangle 6365" width="27.52" height="24.571" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="battery-ic" transform="translate(0 -0.265)">
+    <g id="Group_2850" data-name="Group 2850" transform="translate(0 0.265)" clip-path="url(#clip-path)">
+      <path id="Path_1791" data-name="Path 1791" d="M0,6.651V21.284a3.548,3.548,0,0,0,3.547,3.547h20.4a3.548,3.548,0,0,0,3.547-3.547V6.651A3.548,3.548,0,0,0,23.945,3.1H21.728V.887A.887.887,0,0,0,20.841,0H18.624a.887.887,0,0,0-.887.887V3.1H9.755V.887A.887.887,0,0,0,8.868,0H6.651a.887.887,0,0,0-.887.887V3.1H3.547A3.548,3.548,0,0,0,0,6.651M23.945,21.284H3.547V6.651h20.4Z" transform="translate(0 -0.26)"/>
+      <path id="Path_1792" data-name="Path 1792" d="M24.845,29.837a.456.456,0,0,1-.448-.546l.576-2.879h-1.5a.458.458,0,0,1-.457-.458.465.465,0,0,1,.037-.178l2.055-4.8a.458.458,0,0,1,.42-.277h2.74a.456.456,0,0,1,.424.626l-1.12,2.8H29.64a.457.457,0,0,1,.323.78l-4.8,4.8a.455.455,0,0,1-.323.134" transform="translate(-12.811 -11.783)"/>
+    </g>
+  </g>
+</svg>

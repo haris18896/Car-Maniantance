@@ -1,0 +1,23 @@
+[
+    {
+        "id": 4,
+        "name": "Office",
+        "address": "F79F+V4F, Block L Phase 2 Johar Town, Lahore, Punjab, Pakistan",
+        "latitude": "31.46969999999999",
+        "longitude": "74.2728000000001"
+    },
+    {
+        "id": 3,
+        "name": "Office",
+        "address": "No Address Yet",
+        "latitude": "31.46969999999999",
+        "longitude": "74.2728000000001"
+    },
+    {
+        "id": 2,
+        "name": "Home",
+        "address": "No Address Yet",
+        "latitude": "",
+        "longitude": ""
+    }
+]

@@ -1,0 +1,134 @@
+{
+  "fields": [
+    {
+      "row": [
+        {
+          "id": "1",
+          "fieldType": "text",
+          "isRequired": true,
+          "isUpdate": true,
+          "label": "First Name",
+          "name": "First Name",
+          "xmlName": "name",
+          "popupText": "",
+          "helpNote": "",
+          "placeHolder": "Enter First Name",
+          "errorMessage": "Field Required!",
+          "value": "",
+          "regex": "^[a-zA-z]+([\\s][a-zA-Z]+)*$"
+        },
+        {
+          "id": "1",
+          "fieldType": "text",
+          "isRequired": true,
+          "isUpdate": true,
+          "label": "Last Name",
+          "name": "Last Name",
+          "xmlName": "last_name",
+          "popupText": "",
+          "helpNote": "",
+          "placeHolder": "Enter Last Name",
+          "errorMessage": "Field Required!",
+          "value": "",
+          "regex": "^[a-zA-z]+([\\s][a-zA-Z]+)*$"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "fieldType": "phoneNumber",
+      "isRequired": true,
+      "isUpdate": true,
+      "name": "Mobile Number",
+      "label": "Mobile Number",
+      "xmlName": "phone",
+      "popupText": "",
+      "helpNote": "",
+      "placeHolder": "Enter Mobile Number",
+      "errorMessage": "Field Required!",
+      "value": ""
+    },
+    {
+      "id": "3",
+      "fieldType": "text",
+      "isRequired": true,
+      "isUpdate": true,
+      "label": "Email Address",
+      "name": "Email Address",
+      "xmlName": "email",
+      "popupText": "",
+      "helpNote": "",
+      "placeHolder": "Enter Email Address",
+      "errorMessage": "Field Required!",
+      "value": ""
+    },
+    {
+      "row": [
+        {
+          "id": "4",
+          "fieldType": "date",
+          "isRequired": true,
+          "isUpdate": true,
+          "label": "Date of Birth",
+          "name": "Date of Birth",
+          "xmlName": "dob",
+          "popupText": "",
+          "placeHolder": "Select Date of Birth",
+          "helpNote": "",
+          "errorMessage": "Select Valid Date of Birth!",
+          "regex": ""
+        },
+        {
+          "id": "4",
+          "fieldType": "select",
+          "isRequired": true,
+          "isUpdate": true,
+          "label": "Gender",
+          "name": "Gender",
+          "xmlName": "gender",
+          "popupText": "",
+          "placeHolder": "Please Select Gender",
+          "helpNote": "",
+          "options": [
+            { "label": "Please Select Gender", "value": "" },
+            { "label": "Male", "value": "male" },
+            { "label": "Female", "value": "female" }
+          ],
+          "errorMessage": "Enter Valid Gender!",
+          "regex": ""
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "fieldType": "password",
+      "isRequired": true,
+      "isUpdate": true,
+      "name": "Password",
+      "label": "Password",
+      "xmlName": "password",
+      "popupText": "",
+      "helpNote": "",
+      "placeHolder": "Enter password",
+      "errorMessage": "Minimum eight characters, at least one uppercase letter, one lowercase letter, one number, and one special character",
+      "value": "",
+      "regex": "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$"
+    },
+    {
+      "id": "6",
+      "fieldType": "password",
+      "isRequired": true,
+      "isUpdate": true,
+      "name": "Confirm Password",
+      "label": "Confirm Password",
+      "xmlName": "confirm_password",
+      "popupText": "",
+      "helpNote": "",
+      "placeHolder": "Enter Confirm Password",
+      "errorMessage": "Minimum eight characters, at least one uppercase letter, one lowercase letter, one number, and one special character",
+      "value": "",
+      "regex": "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$"
+    }
+  ],
+  "errorMessages": {}
+}

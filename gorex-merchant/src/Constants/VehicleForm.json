@@ -1,0 +1,1547 @@
+{
+    "submit_url": "/vehicle",
+    "form": [
+        {
+            "id": "2",
+            "fieldType": "select",
+            "isRequired": true,
+            "isUpdate": true,
+            "label": "Manufacturer",
+            "name": "Manufacturer",
+            "xmlName": "vendor",
+            "popupText": "",
+            "helpNote": "",
+            "placeHolder": "Select Manufacturer",
+            "errorMessage": "Field Required!",
+            "value": "",
+            "options": [
+                {
+                    "value": "",
+                    "label": "Please select manufacturer"
+                },
+                {
+                    "value": "63d37f4779e6e9d265c54eda",
+                    "label": "Faw Motors",
+                    "file": "vendor-16b4869f-bd4e-4baa-b17d-d35c102032d8.jpeg"
+                },
+                {
+                    "value": "63c94f69e5164b9e5a2db76e",
+                    "label": "Hyundai",
+                    "file": "vendor-72f7c5df-9165-4322-842d-91e360505ed4.png"
+                }
+            ],
+            "regex": ""
+        },
+        {
+            "id": "2",
+            "fieldType": "select",
+            "isRequired": true,
+            "isUpdate": true,
+            "label": "Vehicle Model",
+            "name": "Vehicle Model",
+            "xmlName": "model",
+            "popupText": "",
+            "helpNote": "",
+            "placeHolder": "Select Vehicle Model",
+            "errorMessage": "Field Required!",
+            "value": "",
+            "options": [
+                {
+                    "value": "",
+                    "label": "Please select Vehicle Model"
+                },
+                {
+                    "value": "63d37f7379e6e9d265c54ee5",
+                    "label": "5m 280",
+                    "$__": {
+                        "activePaths": {
+                            "paths": {
+                                "vendor": "init",
+                                "name": "init",
+                                "status": "init",
+                                "_id": "init",
+                                "created_at": "init",
+                                "updated_at": "init",
+                                "__v": "init"
+                            },
+                            "states": {
+                                "ignore": {},
+                                "default": {},
+                                "init": {
+                                    "_id": true,
+                                    "name": true,
+                                    "status": true,
+                                    "vendor": true,
+                                    "created_at": true,
+                                    "updated_at": true,
+                                    "__v": true
+                                },
+                                "modify": {},
+                                "require": {}
+                            },
+                            "stateNames": [
+                                "require",
+                                "modify",
+                                "init",
+                                "default",
+                                "ignore"
+                            ]
+                        },
+                        "skipId": true,
+                        "strictMode": true,
+                        "selected": {},
+                        "fields": {},
+                        "exclude": null,
+                        "populated": {
+                            "vendor": {
+                                "value": "63d37f4779e6e9d265c54eda",
+                                "options": {
+                                    "_docs": [],
+                                    "_childDocs": [
+                                        {
+                                            "_id": "63c94f69e5164b9e5a2db76e",
+                                            "name": "Hyundai"
+                                        },
+                                        {
+                                            "_id": "63d37f4779e6e9d265c54eda",
+                                            "name": "Faw Motors"
+                                        }
+                                    ],
+                                    "path": "vendor",
+                                    "select": "name ",
+                                    "_queryProjection": {}
+                                }
+                            }
+                        }
+                    },
+                    "$isNew": false,
+                    "_doc": {
+                        "_id": "63d37f7379e6e9d265c54ee5",
+                        "name": "5m 280",
+                        "status": "active",
+                        "vendor": {
+                            "_id": "63d37f4779e6e9d265c54eda",
+                            "name": "Faw Motors"
+                        },
+                        "created_at": "2023-01-27T07:38:27.495Z",
+                        "updated_at": "2023-01-27T07:38:54.674Z",
+                        "__v": 0
+                    }
+                },
+                {
+                    "value": "63d37f6879e6e9d265c54ee0",
+                    "label": "J5m",
+                    "$__": {
+                        "activePaths": {
+                            "paths": {
+                                "vendor": "init",
+                                "name": "init",
+                                "status": "init",
+                                "_id": "init",
+                                "created_at": "init",
+                                "updated_at": "init",
+                                "__v": "init"
+                            },
+                            "states": {
+                                "ignore": {},
+                                "default": {},
+                                "init": {
+                                    "_id": true,
+                                    "name": true,
+                                    "status": true,
+                                    "vendor": true,
+                                    "created_at": true,
+                                    "updated_at": true,
+                                    "__v": true
+                                },
+                                "modify": {},
+                                "require": {}
+                            },
+                            "stateNames": [
+                                "require",
+                                "modify",
+                                "init",
+                                "default",
+                                "ignore"
+                            ]
+                        },
+                        "skipId": true,
+                        "strictMode": true,
+                        "selected": {},
+                        "fields": {},
+                        "exclude": null,
+                        "populated": {
+                            "vendor": {
+                                "value": "63d37f4779e6e9d265c54eda",
+                                "options": {
+                                    "_docs": [],
+                                    "_childDocs": [
+                                        {
+                                            "_id": "63c94f69e5164b9e5a2db76e",
+                                            "name": "Hyundai"
+                                        },
+                                        {
+                                            "_id": "63d37f4779e6e9d265c54eda",
+                                            "name": "Faw Motors"
+                                        }
+                                    ],
+                                    "path": "vendor",
+                                    "select": "name ",
+                                    "_queryProjection": {}
+                                }
+                            }
+                        }
+                    },
+                    "$isNew": false,
+                    "_doc": {
+                        "_id": "63d37f6879e6e9d265c54ee0",
+                        "name": "J5m",
+                        "status": "active",
+                        "vendor": {
+                            "_id": "63d37f4779e6e9d265c54eda",
+                            "name": "Faw Motors"
+                        },
+                        "created_at": "2023-01-27T07:38:16.683Z",
+                        "updated_at": "2023-01-27T07:39:00.276Z",
+                        "__v": 0
+                    }
+                },
+                {
+                    "value": "63c94f7ae5164b9e5a2db773",
+                    "label": "Civic",
+                    "$__": {
+                        "activePaths": {
+                            "paths": {
+                                "vendor": "init",
+                                "name": "init",
+                                "status": "init",
+                                "_id": "init",
+                                "created_at": "init",
+                                "updated_at": "init",
+                                "__v": "init"
+                            },
+                            "states": {
+                                "ignore": {},
+                                "default": {},
+                                "init": {
+                                    "_id": true,
+                                    "name": true,
+                                    "status": true,
+                                    "vendor": true,
+                                    "created_at": true,
+                                    "updated_at": true,
+                                    "__v": true
+                                },
+                                "modify": {},
+                                "require": {}
+                            },
+                            "stateNames": [
+                                "require",
+                                "modify",
+                                "init",
+                                "default",
+                                "ignore"
+                            ]
+                        },
+                        "skipId": true,
+                        "strictMode": true,
+                        "selected": {},
+                        "fields": {},
+                        "exclude": null,
+                        "populated": {
+                            "vendor": {
+                                "value": "63c94f69e5164b9e5a2db76e",
+                                "options": {
+                                    "_docs": [],
+                                    "_childDocs": [
+                                        {
+                                            "_id": "63c94f69e5164b9e5a2db76e",
+                                            "name": "Hyundai"
+                                        },
+                                        {
+                                            "_id": "63d37f4779e6e9d265c54eda",
+                                            "name": "Faw Motors"
+                                        }
+                                    ],
+                                    "path": "vendor",
+                                    "select": "name ",
+                                    "_queryProjection": {}
+                                }
+                            }
+                        }
+                    },
+                    "$isNew": false,
+                    "_doc": {
+                        "_id": "63c94f7ae5164b9e5a2db773",
+                        "name": "Civic",
+                        "status": "active",
+                        "vendor": {
+                            "_id": "63c94f69e5164b9e5a2db76e",
+                            "name": "Hyundai"
+                        },
+                        "created_at": "2023-01-19T14:11:06.787Z",
+                        "updated_at": "2023-01-19T14:11:06.787Z",
+                        "__v": 0
+                    }
+                }
+            ],
+            "regex": ""
+        },
+        {
+            "id": "2",
+            "fieldType": "select",
+            "isRequired": true,
+            "isUpdate": true,
+            "label": "Vehicle Types",
+            "name": "Vehicle Types",
+            "xmlName": "type",
+            "popupText": "",
+            "helpNote": "",
+            "placeHolder": "Select Vehicle Types",
+            "errorMessage": "Field Required!",
+            "value": "",
+            "options": [
+                {
+                    "value": "",
+                    "label": "Please select Vehicle Types"
+                },
+                {
+                    "value": "63d37fea79e6e9d265c54f05",
+                    "label": "5m 6x4",
+                    "$__": {
+                        "activePaths": {
+                            "paths": {
+                                "model": "init",
+                                "name": "init",
+                                "status": "init",
+                                "_id": "init",
+                                "created_at": "init",
+                                "updated_at": "init",
+                                "__v": "init"
+                            },
+                            "states": {
+                                "ignore": {},
+                                "default": {},
+                                "init": {
+                                    "_id": true,
+                                    "name": true,
+                                    "model": true,
+                                    "status": true,
+                                    "created_at": true,
+                                    "updated_at": true,
+                                    "__v": true
+                                },
+                                "modify": {},
+                                "require": {}
+                            },
+                            "stateNames": [
+                                "require",
+                                "modify",
+                                "init",
+                                "default",
+                                "ignore"
+                            ]
+                        },
+                        "skipId": true,
+                        "strictMode": true,
+                        "selected": {},
+                        "fields": {},
+                        "exclude": null,
+                        "populated": {
+                            "model": {
+                                "value": "63d37f7379e6e9d265c54ee5",
+                                "options": {
+                                    "_docs": [],
+                                    "_childDocs": [
+                                        {
+                                            "_id": "63c94f7ae5164b9e5a2db773",
+                                            "name": "Civic"
+                                        },
+                                        {
+                                            "_id": "63d37f6879e6e9d265c54ee0",
+                                            "name": "J5m"
+                                        },
+                                        {
+                                            "_id": "63d37f7379e6e9d265c54ee5",
+                                            "name": "5m 280"
+                                        }
+                                    ],
+                                    "path": "model",
+                                    "select": "name ",
+                                    "_queryProjection": {}
+                                }
+                            }
+                        }
+                    },
+                    "$isNew": false,
+                    "_doc": {
+                        "_id": "63d37fea79e6e9d265c54f05",
+                        "name": "5m 6x4",
+                        "model": {
+                            "_id": "63d37f7379e6e9d265c54ee5",
+                            "name": "5m 280"
+                        },
+                        "status": "active",
+                        "created_at": "2023-01-27T07:40:26.844Z",
+                        "updated_at": "2023-01-27T07:40:26.844Z",
+                        "__v": 0
+                    }
+                },
+                {
+                    "value": "63d37fcd79e6e9d265c54efd",
+                    "label": "J5m 4x4",
+                    "$__": {
+                        "activePaths": {
+                            "paths": {
+                                "model": "init",
+                                "name": "init",
+                                "status": "init",
+                                "_id": "init",
+                                "created_at": "init",
+                                "updated_at": "init",
+                                "__v": "init"
+                            },
+                            "states": {
+                                "ignore": {},
+                                "default": {},
+                                "init": {
+                                    "_id": true,
+                                    "name": true,
+                                    "model": true,
+                                    "status": true,
+                                    "created_at": true,
+                                    "updated_at": true,
+                                    "__v": true
+                                },
+                                "modify": {},
+                                "require": {}
+                            },
+                            "stateNames": [
+                                "require",
+                                "modify",
+                                "init",
+                                "default",
+                                "ignore"
+                            ]
+                        },
+                        "skipId": true,
+                        "strictMode": true,
+                        "selected": {},
+                        "fields": {},
+                        "exclude": null,
+                        "populated": {
+                            "model": {
+                                "value": "63d37f6879e6e9d265c54ee0",
+                                "options": {
+                                    "_docs": [],
+                                    "_childDocs": [
+                                        {
+                                            "_id": "63c94f7ae5164b9e5a2db773",
+                                            "name": "Civic"
+                                        },
+                                        {
+                                            "_id": "63d37f6879e6e9d265c54ee0",
+                                            "name": "J5m"
+                                        },
+                                        {
+                                            "_id": "63d37f7379e6e9d265c54ee5",
+                                            "name": "5m 280"
+                                        }
+                                    ],
+                                    "path": "model",
+                                    "select": "name ",
+                                    "_queryProjection": {}
+                                }
+                            }
+                        }
+                    },
+                    "$isNew": false,
+                    "_doc": {
+                        "_id": "63d37fcd79e6e9d265c54efd",
+                        "name": "J5m 4x4",
+                        "model": {
+                            "_id": "63d37f6879e6e9d265c54ee0",
+                            "name": "J5m"
+                        },
+                        "status": "active",
+                        "created_at": "2023-01-27T07:39:57.125Z",
+                        "updated_at": "2023-01-27T07:39:57.125Z",
+                        "__v": 0
+                    }
+                },
+                {
+                    "value": "63c95003e5164b9e5a2db80c",
+                    "label": "Suv2",
+                    "$__": {
+                        "activePaths": {
+                            "paths": {
+                                "model": "init",
+                                "name": "init",
+                                "status": "init",
+                                "_id": "init",
+                                "created_at": "init",
+                                "updated_at": "init",
+                                "__v": "init"
+                            },
+                            "states": {
+                                "ignore": {},
+                                "default": {},
+                                "init": {
+                                    "_id": true,
+                                    "name": true,
+                                    "model": true,
+                                    "status": true,
+                                    "created_at": true,
+                                    "updated_at": true,
+                                    "__v": true
+                                },
+                                "modify": {},
+                                "require": {}
+                            },
+                            "stateNames": [
+                                "require",
+                                "modify",
+                                "init",
+                                "default",
+                                "ignore"
+                            ]
+                        },
+                        "skipId": true,
+                        "strictMode": true,
+                        "selected": {},
+                        "fields": {},
+                        "exclude": null,
+                        "populated": {
+                            "model": {
+                                "value": "63c94f7ae5164b9e5a2db773",
+                                "options": {
+                                    "_docs": [],
+                                    "_childDocs": [
+                                        {
+                                            "_id": "63c94f7ae5164b9e5a2db773",
+                                            "name": "Civic"
+                                        },
+                                        {
+                                            "_id": "63d37f6879e6e9d265c54ee0",
+                                            "name": "J5m"
+                                        },
+                                        {
+                                            "_id": "63d37f7379e6e9d265c54ee5",
+                                            "name": "5m 280"
+                                        }
+                                    ],
+                                    "path": "model",
+                                    "select": "name ",
+                                    "_queryProjection": {}
+                                }
+                            }
+                        }
+                    },
+                    "$isNew": false,
+                    "_doc": {
+                        "_id": "63c95003e5164b9e5a2db80c",
+                        "name": "Suv2",
+                        "model": {
+                            "_id": "63c94f7ae5164b9e5a2db773",
+                            "name": "Civic"
+                        },
+                        "status": "active",
+                        "created_at": "2023-01-19T14:13:23.669Z",
+                        "updated_at": "2023-01-19T14:13:23.669Z",
+                        "__v": 0
+                    }
+                },
+                {
+                    "value": "63c94f84e5164b9e5a2db77a",
+                    "label": "Suv",
+                    "$__": {
+                        "activePaths": {
+                            "paths": {
+                                "model": "init",
+                                "name": "init",
+                                "status": "init",
+                                "_id": "init",
+                                "created_at": "init",
+                                "updated_at": "init",
+                                "__v": "init"
+                            },
+                            "states": {
+                                "ignore": {},
+                                "default": {},
+                                "init": {
+                                    "_id": true,
+                                    "name": true,
+                                    "model": true,
+                                    "status": true,
+                                    "created_at": true,
+                                    "updated_at": true,
+                                    "__v": true
+                                },
+                                "modify": {},
+                                "require": {}
+                            },
+                            "stateNames": [
+                                "require",
+                                "modify",
+                                "init",
+                                "default",
+                                "ignore"
+                            ]
+                        },
+                        "skipId": true,
+                        "strictMode": true,
+                        "selected": {},
+                        "fields": {},
+                        "exclude": null,
+                        "populated": {
+                            "model": {
+                                "value": "63c94f7ae5164b9e5a2db773",
+                                "options": {
+                                    "_docs": [],
+                                    "_childDocs": [
+                                        {
+                                            "_id": "63c94f7ae5164b9e5a2db773",
+                                            "name": "Civic"
+                                        },
+                                        {
+                                            "_id": "63d37f6879e6e9d265c54ee0",
+                                            "name": "J5m"
+                                        },
+                                        {
+                                            "_id": "63d37f7379e6e9d265c54ee5",
+                                            "name": "5m 280"
+                                        }
+                                    ],
+                                    "path": "model",
+                                    "select": "name ",
+                                    "_queryProjection": {}
+                                }
+                            }
+                        }
+                    },
+                    "$isNew": false,
+                    "_doc": {
+                        "_id": "63c94f84e5164b9e5a2db77a",
+                        "name": "Suv",
+                        "model": {
+                            "_id": "63c94f7ae5164b9e5a2db773",
+                            "name": "Civic"
+                        },
+                        "status": "active",
+                        "created_at": "2023-01-19T14:11:16.941Z",
+                        "updated_at": "2023-01-19T14:11:16.941Z",
+                        "__v": 0
+                    }
+                }
+            ],
+            "regex": ""
+        },
+        {
+            "id": "2",
+            "fieldType": "select",
+            "isRequired": true,
+            "isUpdate": true,
+            "label": "Year",
+            "name": "Year",
+            "xmlName": "year",
+            "popupText": "",
+            "helpNote": "",
+            "placeHolder": "Select Year",
+            "errorMessage": "Field Required!",
+            "value": "",
+            "options": [
+                {
+                    "value": "",
+                    "label": "Please select Year"
+                },
+                {
+                    "value": 2023,
+                    "label": 2023
+                },
+                {
+                    "value": 2022,
+                    "label": 2022
+                },
+                {
+                    "value": 2021,
+                    "label": 2021
+                },
+                {
+                    "value": 2020,
+                    "label": 2020
+                },
+                {
+                    "value": 2019,
+                    "label": 2019
+                },
+                {
+                    "value": 2018,
+                    "label": 2018
+                },
+                {
+                    "value": 2017,
+                    "label": 2017
+                },
+                {
+                    "value": 2016,
+                    "label": 2016
+                },
+                {
+                    "value": 2015,
+                    "label": 2015
+                },
+                {
+                    "value": 2014,
+                    "label": 2014
+                },
+                {
+                    "value": 2013,
+                    "label": 2013
+                },
+                {
+                    "value": 2012,
+                    "label": 2012
+                },
+                {
+                    "value": 2011,
+                    "label": 2011
+                },
+                {
+                    "value": 2010,
+                    "label": 2010
+                },
+                {
+                    "value": 2009,
+                    "label": 2009
+                },
+                {
+                    "value": 2008,
+                    "label": 2008
+                },
+                {
+                    "value": 2007,
+                    "label": 2007
+                },
+                {
+                    "value": 2006,
+                    "label": 2006
+                },
+                {
+                    "value": 2005,
+                    "label": 2005
+                },
+                {
+                    "value": 2004,
+                    "label": 2004
+                },
+                {
+                    "value": 2003,
+                    "label": 2003
+                }
+            ],
+            "regex": ""
+        },
+        {
+            "id": "7",
+            "fieldType": "file",
+            "isRequired": true,
+            "isUpdate": true,
+            "name": "Istamara",
+            "label": "Istamara",
+            "xmlName": "file",
+            "popupText": "",
+            "helpNote": "",
+            "placeHolder": "Upload Istamara",
+            "errorMessage": "Only images are allowed",
+            "value": "",
+            "regex": "\\.(apng|avif|gif|jpg|jpeg|jfif|pjpeg|pjp|png|gif|webp|svg|bmp|ico|cur|tif|tiff)$"
+        },
+        {
+            "id": "2",
+            "fieldType": "text",
+            "isRequired": true,
+            "isUpdate": true,
+            "label": "Plate Number",
+            "name": "Plate Number",
+            "xmlName": "plate_number",
+            "popupText": "",
+            "helpNote": "",
+            "placeHolder": "Please Enter Plate Number",
+            "errorMessage": "Field Required!",
+            "value": "",
+            "regex": ""
+        }
+    ],
+    "form_ar": [
+        {
+            "id": "2",
+            "fieldType": "select",
+            "isRequired": true,
+            "isUpdate": true,
+            "label": "الصانع",
+            "name": "الصانع",
+            "xmlName": "vendor",
+            "popupText": "",
+            "helpNote": "",
+            "placeHolder": "Select Manufacturer",
+            "errorMessage": "Field Required!",
+            "value": "",
+            "options": [
+                {
+                    "value": "",
+                    "label": "Please select manufacturer"
+                },
+                {
+                    "value": "63d37f4779e6e9d265c54eda",
+                    "label": "Faw Motors",
+                    "file": "vendor-16b4869f-bd4e-4baa-b17d-d35c102032d8.jpeg"
+                },
+                {
+                    "value": "63c94f69e5164b9e5a2db76e",
+                    "label": "Hyundai",
+                    "file": "vendor-72f7c5df-9165-4322-842d-91e360505ed4.png"
+                }
+            ],
+            "regex": ""
+        },
+        {
+            "id": "2",
+            "fieldType": "select",
+            "isRequired": true,
+            "isUpdate": true,
+            "label": "Vehicle Model",
+            "name": "Vehicle Model",
+            "xmlName": "model",
+            "popupText": "",
+            "helpNote": "",
+            "placeHolder": "Select Vehicle Model",
+            "errorMessage": "Field Required!",
+            "value": "",
+            "options": [
+                {
+                    "value": "",
+                    "label": "Please select Vehicle Model"
+                },
+                {
+                    "value": "63d37f7379e6e9d265c54ee5",
+                    "label": "5m 280",
+                    "$__": {
+                        "activePaths": {
+                            "paths": {
+                                "vendor": "init",
+                                "name": "init",
+                                "status": "init",
+                                "_id": "init",
+                                "created_at": "init",
+                                "updated_at": "init",
+                                "__v": "init"
+                            },
+                            "states": {
+                                "ignore": {},
+                                "default": {},
+                                "init": {
+                                    "_id": true,
+                                    "name": true,
+                                    "status": true,
+                                    "vendor": true,
+                                    "created_at": true,
+                                    "updated_at": true,
+                                    "__v": true
+                                },
+                                "modify": {},
+                                "require": {}
+                            },
+                            "stateNames": [
+                                "require",
+                                "modify",
+                                "init",
+                                "default",
+                                "ignore"
+                            ]
+                        },
+                        "skipId": true,
+                        "strictMode": true,
+                        "selected": {},
+                        "fields": {},
+                        "exclude": null,
+                        "populated": {
+                            "vendor": {
+                                "value": "63d37f4779e6e9d265c54eda",
+                                "options": {
+                                    "_docs": [],
+                                    "_childDocs": [
+                                        {
+                                            "_id": "63c94f69e5164b9e5a2db76e",
+                                            "name": "Hyundai"
+                                        },
+                                        {
+                                            "_id": "63d37f4779e6e9d265c54eda",
+                                            "name": "Faw Motors"
+                                        }
+                                    ],
+                                    "path": "vendor",
+                                    "select": "name ",
+                                    "_queryProjection": {}
+                                }
+                            }
+                        }
+                    },
+                    "$isNew": false,
+                    "_doc": {
+                        "_id": "63d37f7379e6e9d265c54ee5",
+                        "name": "5m 280",
+                        "status": "active",
+                        "vendor": {
+                            "_id": "63d37f4779e6e9d265c54eda",
+                            "name": "Faw Motors"
+                        },
+                        "created_at": "2023-01-27T07:38:27.495Z",
+                        "updated_at": "2023-01-27T07:38:54.674Z",
+                        "__v": 0
+                    }
+                },
+                {
+                    "value": "63d37f6879e6e9d265c54ee0",
+                    "label": "J5m",
+                    "$__": {
+                        "activePaths": {
+                            "paths": {
+                                "vendor": "init",
+                                "name": "init",
+                                "status": "init",
+                                "_id": "init",
+                                "created_at": "init",
+                                "updated_at": "init",
+                                "__v": "init"
+                            },
+                            "states": {
+                                "ignore": {},
+                                "default": {},
+                                "init": {
+                                    "_id": true,
+                                    "name": true,
+                                    "status": true,
+                                    "vendor": true,
+                                    "created_at": true,
+                                    "updated_at": true,
+                                    "__v": true
+                                },
+                                "modify": {},
+                                "require": {}
+                            },
+                            "stateNames": [
+                                "require",
+                                "modify",
+                                "init",
+                                "default",
+                                "ignore"
+                            ]
+                        },
+                        "skipId": true,
+                        "strictMode": true,
+                        "selected": {},
+                        "fields": {},
+                        "exclude": null,
+                        "populated": {
+                            "vendor": {
+                                "value": "63d37f4779e6e9d265c54eda",
+                                "options": {
+                                    "_docs": [],
+                                    "_childDocs": [
+                                        {
+                                            "_id": "63c94f69e5164b9e5a2db76e",
+                                            "name": "Hyundai"
+                                        },
+                                        {
+                                            "_id": "63d37f4779e6e9d265c54eda",
+                                            "name": "Faw Motors"
+                                        }
+                                    ],
+                                    "path": "vendor",
+                                    "select": "name ",
+                                    "_queryProjection": {}
+                                }
+                            }
+                        }
+                    },
+                    "$isNew": false,
+                    "_doc": {
+                        "_id": "63d37f6879e6e9d265c54ee0",
+                        "name": "J5m",
+                        "status": "active",
+                        "vendor": {
+                            "_id": "63d37f4779e6e9d265c54eda",
+                            "name": "Faw Motors"
+                        },
+                        "created_at": "2023-01-27T07:38:16.683Z",
+                        "updated_at": "2023-01-27T07:39:00.276Z",
+                        "__v": 0
+                    }
+                },
+                {
+                    "value": "63c94f7ae5164b9e5a2db773",
+                    "label": "Civic",
+                    "$__": {
+                        "activePaths": {
+                            "paths": {
+                                "vendor": "init",
+                                "name": "init",
+                                "status": "init",
+                                "_id": "init",
+                                "created_at": "init",
+                                "updated_at": "init",
+                                "__v": "init"
+                            },
+                            "states": {
+                                "ignore": {},
+                                "default": {},
+                                "init": {
+                                    "_id": true,
+                                    "name": true,
+                                    "status": true,
+                                    "vendor": true,
+                                    "created_at": true,
+                                    "updated_at": true,
+                                    "__v": true
+                                },
+                                "modify": {},
+                                "require": {}
+                            },
+                            "stateNames": [
+                                "require",
+                                "modify",
+                                "init",
+                                "default",
+                                "ignore"
+                            ]
+                        },
+                        "skipId": true,
+                        "strictMode": true,
+                        "selected": {},
+                        "fields": {},
+                        "exclude": null,
+                        "populated": {
+                            "vendor": {
+                                "value": "63c94f69e5164b9e5a2db76e",
+                                "options": {
+                                    "_docs": [],
+                                    "_childDocs": [
+                                        {
+                                            "_id": "63c94f69e5164b9e5a2db76e",
+                                            "name": "Hyundai"
+                                        },
+                                        {
+                                            "_id": "63d37f4779e6e9d265c54eda",
+                                            "name": "Faw Motors"
+                                        }
+                                    ],
+                                    "path": "vendor",
+                                    "select": "name ",
+                                    "_queryProjection": {}
+                                }
+                            }
+                        }
+                    },
+                    "$isNew": false,
+                    "_doc": {
+                        "_id": "63c94f7ae5164b9e5a2db773",
+                        "name": "Civic",
+                        "status": "active",
+                        "vendor": {
+                            "_id": "63c94f69e5164b9e5a2db76e",
+                            "name": "Hyundai"
+                        },
+                        "created_at": "2023-01-19T14:11:06.787Z",
+                        "updated_at": "2023-01-19T14:11:06.787Z",
+                        "__v": 0
+                    }
+                }
+            ],
+            "regex": ""
+        },
+        {
+            "id": "2",
+            "fieldType": "select",
+            "isRequired": true,
+            "isUpdate": true,
+            "label": "Vehicle Types",
+            "name": "Vehicle Types",
+            "xmlName": "type",
+            "popupText": "",
+            "helpNote": "",
+            "placeHolder": "Select Vehicle Types",
+            "errorMessage": "Field Required!",
+            "value": "",
+            "options": [
+                {
+                    "value": "",
+                    "label": "Please select Vehicle Types"
+                },
+                {
+                    "value": "63d37fea79e6e9d265c54f05",
+                    "label": "5m 6x4",
+                    "$__": {
+                        "activePaths": {
+                            "paths": {
+                                "model": "init",
+                                "name": "init",
+                                "status": "init",
+                                "_id": "init",
+                                "created_at": "init",
+                                "updated_at": "init",
+                                "__v": "init"
+                            },
+                            "states": {
+                                "ignore": {},
+                                "default": {},
+                                "init": {
+                                    "_id": true,
+                                    "name": true,
+                                    "model": true,
+                                    "status": true,
+                                    "created_at": true,
+                                    "updated_at": true,
+                                    "__v": true
+                                },
+                                "modify": {},
+                                "require": {}
+                            },
+                            "stateNames": [
+                                "require",
+                                "modify",
+                                "init",
+                                "default",
+                                "ignore"
+                            ]
+                        },
+                        "skipId": true,
+                        "strictMode": true,
+                        "selected": {},
+                        "fields": {},
+                        "exclude": null,
+                        "populated": {
+                            "model": {
+                                "value": "63d37f7379e6e9d265c54ee5",
+                                "options": {
+                                    "_docs": [],
+                                    "_childDocs": [
+                                        {
+                                            "_id": "63c94f7ae5164b9e5a2db773",
+                                            "name": "Civic"
+                                        },
+                                        {
+                                            "_id": "63d37f6879e6e9d265c54ee0",
+                                            "name": "J5m"
+                                        },
+                                        {
+                                            "_id": "63d37f7379e6e9d265c54ee5",
+                                            "name": "5m 280"
+                                        }
+                                    ],
+                                    "path": "model",
+                                    "select": "name ",
+                                    "_queryProjection": {}
+                                }
+                            }
+                        }
+                    },
+                    "$isNew": false,
+                    "_doc": {
+                        "_id": "63d37fea79e6e9d265c54f05",
+                        "name": "5m 6x4",
+                        "model": {
+                            "_id": "63d37f7379e6e9d265c54ee5",
+                            "name": "5m 280"
+                        },
+                        "status": "active",
+                        "created_at": "2023-01-27T07:40:26.844Z",
+                        "updated_at": "2023-01-27T07:40:26.844Z",
+                        "__v": 0
+                    }
+                },
+                {
+                    "value": "63d37fcd79e6e9d265c54efd",
+                    "label": "J5m 4x4",
+                    "$__": {
+                        "activePaths": {
+                            "paths": {
+                                "model": "init",
+                                "name": "init",
+                                "status": "init",
+                                "_id": "init",
+                                "created_at": "init",
+                                "updated_at": "init",
+                                "__v": "init"
+                            },
+                            "states": {
+                                "ignore": {},
+                                "default": {},
+                                "init": {
+                                    "_id": true,
+                                    "name": true,
+                                    "model": true,
+                                    "status": true,
+                                    "created_at": true,
+                                    "updated_at": true,
+                                    "__v": true
+                                },
+                                "modify": {},
+                                "require": {}
+                            },
+                            "stateNames": [
+                                "require",
+                                "modify",
+                                "init",
+                                "default",
+                                "ignore"
+                            ]
+                        },
+                        "skipId": true,
+                        "strictMode": true,
+                        "selected": {},
+                        "fields": {},
+                        "exclude": null,
+                        "populated": {
+                            "model": {
+                                "value": "63d37f6879e6e9d265c54ee0",
+                                "options": {
+                                    "_docs": [],
+                                    "_childDocs": [
+                                        {
+                                            "_id": "63c94f7ae5164b9e5a2db773",
+                                            "name": "Civic"
+                                        },
+                                        {
+                                            "_id": "63d37f6879e6e9d265c54ee0",
+                                            "name": "J5m"
+                                        },
+                                        {
+                                            "_id": "63d37f7379e6e9d265c54ee5",
+                                            "name": "5m 280"
+                                        }
+                                    ],
+                                    "path": "model",
+                                    "select": "name ",
+                                    "_queryProjection": {}
+                                }
+                            }
+                        }
+                    },
+                    "$isNew": false,
+                    "_doc": {
+                        "_id": "63d37fcd79e6e9d265c54efd",
+                        "name": "J5m 4x4",
+                        "model": {
+                            "_id": "63d37f6879e6e9d265c54ee0",
+                            "name": "J5m"
+                        },
+                        "status": "active",
+                        "created_at": "2023-01-27T07:39:57.125Z",
+                        "updated_at": "2023-01-27T07:39:57.125Z",
+                        "__v": 0
+                    }
+                },
+                {
+                    "value": "63c95003e5164b9e5a2db80c",
+                    "label": "Suv2",
+                    "$__": {
+                        "activePaths": {
+                            "paths": {
+                                "model": "init",
+                                "name": "init",
+                                "status": "init",
+                                "_id": "init",
+                                "created_at": "init",
+                                "updated_at": "init",
+                                "__v": "init"
+                            },
+                            "states": {
+                                "ignore": {},
+                                "default": {},
+                                "init": {
+                                    "_id": true,
+                                    "name": true,
+                                    "model": true,
+                                    "status": true,
+                                    "created_at": true,
+                                    "updated_at": true,
+                                    "__v": true
+                                },
+                                "modify": {},
+                                "require": {}
+                            },
+                            "stateNames": [
+                                "require",
+                                "modify",
+                                "init",
+                                "default",
+                                "ignore"
+                            ]
+                        },
+                        "skipId": true,
+                        "strictMode": true,
+                        "selected": {},
+                        "fields": {},
+                        "exclude": null,
+                        "populated": {
+                            "model": {
+                                "value": "63c94f7ae5164b9e5a2db773",
+                                "options": {
+                                    "_docs": [],
+                                    "_childDocs": [
+                                        {
+                                            "_id": "63c94f7ae5164b9e5a2db773",
+                                            "name": "Civic"
+                                        },
+                                        {
+                                            "_id": "63d37f6879e6e9d265c54ee0",
+                                            "name": "J5m"
+                                        },
+                                        {
+                                            "_id": "63d37f7379e6e9d265c54ee5",
+                                            "name": "5m 280"
+                                        }
+                                    ],
+                                    "path": "model",
+                                    "select": "name ",
+                                    "_queryProjection": {}
+                                }
+                            }
+                        }
+                    },
+                    "$isNew": false,
+                    "_doc": {
+                        "_id": "63c95003e5164b9e5a2db80c",
+                        "name": "Suv2",
+                        "model": {
+                            "_id": "63c94f7ae5164b9e5a2db773",
+                            "name": "Civic"
+                        },
+                        "status": "active",
+                        "created_at": "2023-01-19T14:13:23.669Z",
+                        "updated_at": "2023-01-19T14:13:23.669Z",
+                        "__v": 0
+                    }
+                },
+                {
+                    "value": "63c94f84e5164b9e5a2db77a",
+                    "label": "Suv",
+                    "$__": {
+                        "activePaths": {
+                            "paths": {
+                                "model": "init",
+                                "name": "init",
+                                "status": "init",
+                                "_id": "init",
+                                "created_at": "init",
+                                "updated_at": "init",
+                                "__v": "init"
+                            },
+                            "states": {
+                                "ignore": {},
+                                "default": {},
+                                "init": {
+                                    "_id": true,
+                                    "name": true,
+                                    "model": true,
+                                    "status": true,
+                                    "created_at": true,
+                                    "updated_at": true,
+                                    "__v": true
+                                },
+                                "modify": {},
+                                "require": {}
+                            },
+                            "stateNames": [
+                                "require",
+                                "modify",
+                                "init",
+                                "default",
+                                "ignore"
+                            ]
+                        },
+                        "skipId": true,
+                        "strictMode": true,
+                        "selected": {},
+                        "fields": {},
+                        "exclude": null,
+                        "populated": {
+                            "model": {
+                                "value": "63c94f7ae5164b9e5a2db773",
+                                "options": {
+                                    "_docs": [],
+                                    "_childDocs": [
+                                        {
+                                            "_id": "63c94f7ae5164b9e5a2db773",
+                                            "name": "Civic"
+                                        },
+                                        {
+                                            "_id": "63d37f6879e6e9d265c54ee0",
+                                            "name": "J5m"
+                                        },
+                                        {
+                                            "_id": "63d37f7379e6e9d265c54ee5",
+                                            "name": "5m 280"
+                                        }
+                                    ],
+                                    "path": "model",
+                                    "select": "name ",
+                                    "_queryProjection": {}
+                                }
+                            }
+                        }
+                    },
+                    "$isNew": false,
+                    "_doc": {
+                        "_id": "63c94f84e5164b9e5a2db77a",
+                        "name": "Suv",
+                        "model": {
+                            "_id": "63c94f7ae5164b9e5a2db773",
+                            "name": "Civic"
+                        },
+                        "status": "active",
+                        "created_at": "2023-01-19T14:11:16.941Z",
+                        "updated_at": "2023-01-19T14:11:16.941Z",
+                        "__v": 0
+                    }
+                }
+            ],
+            "regex": ""
+        },
+        {
+            "id": "2",
+            "fieldType": "select",
+            "isRequired": true,
+            "isUpdate": true,
+            "label": "Year",
+            "name": "Year",
+            "xmlName": "year",
+            "popupText": "",
+            "helpNote": "",
+            "placeHolder": "Select Year",
+            "errorMessage": "Field Required!",
+            "value": "",
+            "options": [
+                {
+                    "value": "",
+                    "label": "Please select Year"
+                },
+                {
+                    "value": 2023,
+                    "label": 2023
+                },
+                {
+                    "value": 2022,
+                    "label": 2022
+                },
+                {
+                    "value": 2021,
+                    "label": 2021
+                },
+                {
+                    "value": 2020,
+                    "label": 2020
+                },
+                {
+                    "value": 2019,
+                    "label": 2019
+                },
+                {
+                    "value": 2018,
+                    "label": 2018
+                },
+                {
+                    "value": 2017,
+                    "label": 2017
+                },
+                {
+                    "value": 2016,
+                    "label": 2016
+                },
+                {
+                    "value": 2015,
+                    "label": 2015
+                },
+                {
+                    "value": 2014,
+                    "label": 2014
+                },
+                {
+                    "value": 2013,
+                    "label": 2013
+                },
+                {
+                    "value": 2012,
+                    "label": 2012
+                },
+                {
+                    "value": 2011,
+                    "label": 2011
+                },
+                {
+                    "value": 2010,
+                    "label": 2010
+                },
+                {
+                    "value": 2009,
+                    "label": 2009
+                },
+                {
+                    "value": 2008,
+                    "label": 2008
+                },
+                {
+                    "value": 2007,
+                    "label": 2007
+                },
+                {
+                    "value": 2006,
+                    "label": 2006
+                },
+                {
+                    "value": 2005,
+                    "label": 2005
+                },
+                {
+                    "value": 2004,
+                    "label": 2004
+                },
+                {
+                    "value": 2003,
+                    "label": 2003
+                }
+            ],
+            "regex": ""
+        },
+        {
+            "id": "7",
+            "fieldType": "file",
+            "isRequired": true,
+            "isUpdate": true,
+            "name": "Istamara",
+            "label": "Istamara",
+            "xmlName": "file",
+            "popupText": "",
+            "helpNote": "",
+            "placeHolder": "Upload Istamara",
+            "errorMessage": "Only images are allowed",
+            "value": "",
+            "regex": "\\.(apng|avif|gif|jpg|jpeg|jfif|pjpeg|pjp|png|gif|webp|svg|bmp|ico|cur|tif|tiff)$"
+        },
+        {
+            "id": "2",
+            "fieldType": "text",
+            "isRequired": true,
+            "isUpdate": true,
+            "label": "Plate Number",
+            "name": "Plate Number",
+            "xmlName": "plate_number",
+            "popupText": "",
+            "helpNote": "",
+            "placeHolder": "Please Enter Plate Number",
+            "errorMessage": "Field Required!",
+            "value": "",
+            "regex": ""
+        }
+    ]
+}

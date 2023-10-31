@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>CFBundleURLTypes</key>
+<array>
+  <dict>
+  <key>CFBundleURLSchemes</key>
+  <array>
+    <string>fb2010716229275621</string>
+  </array>
+  </dict>
+</array>
+<key>FacebookAppID</key>
+<string>2010716229275621</string>
+<key>FacebookClientToken</key>
+<string>c9aa1e47d91564b29c8f821d1623dc37</string>
+<key>FacebookDisplayName</key>
+<string>Gorex Customer</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Gorex</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Gorex want to access your current location to show you near by services and products</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Need access to camera to scan QR code</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Gorex want to access your current location to show you near by services and products</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Gorex want to access your current location to show you near by services and products</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Gorex needs access to photos library to update images for Vehicle Lisenses</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Gorex needs access to photos library to update images for Vehicle Lisenses</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Glory-Bold.ttf</string>
+		<string>Lexend-Black.ttf</string>
+		<string>Lexend-Bold.ttf</string>
+		<string>Lexend-ExtraBold.ttf</string>
+		<string>Lexend-ExtraLight.ttf</string>
+		<string>Lexend-Light.ttf</string>
+		<string>Lexend-Medium.ttf</string>
+		<string>Lexend-Regular.ttf</string>
+		<string>Lexend-SemiBold.ttf</string>
+		<string>Lexend-Thin.ttf</string>
+		<string>Mont-Bold.ttf</string>
+		<string>Mont-Semibold.ttf</string>
+		<string>Poppins-Bold.ttf</string>
+		<string>Poppins-Medium.ttf</string>
+		<string>Poppins-Regular.ttf</string>
+		<string>Poppins-SemiBold.ttf</string>
+		<string>SFProDisplay-Bold.ttf</string>
+		<string>SFProDisplay-Light.ttf</string>
+		<string>SFProDisplay-Medium.ttf</string>
+		<string>SFProDisplay-Regular.ttf</string>
+		<string>SFProDisplay-Semibold.ttf</string>
+		<string>NotoKufiArabic-Black.ttf</string>
+        <string>NotoKufiArabic-Bold.ttf</string>
+        <string>NotoKufiArabic-ExtraBold.ttf</string>
+        <string>NotoKufiArabic-ExtraLight.ttf</string>
+        <string>NotoKufiArabic-Light.ttf</string>
+        <string>NotoKufiArabic-Medium.ttf</string>
+        <string>NotoKufiArabic-Regular.ttf</string>
+        <string>NotoKufiArabic-SemiBold.ttf</string>
+        <string>NotoKufiArabic-Thin.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

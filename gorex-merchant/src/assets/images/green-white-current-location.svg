@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="current-location-ic" transform="translate(-324 -690)">
+    <rect id="Rectangle_252" data-name="Rectangle 252" width="60" height="60" rx="10" transform="translate(324 690)" fill="#4ad594"/>
+    <g id="ic_my_location_24px" transform="translate(340.215 706.215)">
+      <path id="Path_752" data-name="Path 752" d="M13.785,9.136a4.649,4.649,0,1,0,4.649,4.649A4.648,4.648,0,0,0,13.785,9.136Zm10.391,3.487a10.454,10.454,0,0,0-9.229-9.229V1H12.623V3.394a10.454,10.454,0,0,0-9.229,9.229H1v2.325H3.394a10.454,10.454,0,0,0,9.229,9.229V26.57h2.325V24.176a10.454,10.454,0,0,0,9.229-9.229H26.57V12.623H24.176Zm-10.391,9.3a8.136,8.136,0,1,1,8.136-8.136A8.13,8.13,0,0,1,13.785,21.921Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

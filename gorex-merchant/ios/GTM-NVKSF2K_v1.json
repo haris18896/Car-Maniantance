@@ -1,0 +1,69 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2023-05-08 16:06:22",
+    "containerVersion": {
+        "path": "accounts/6092358597/containers/116578477/versions/1",
+        "accountId": "6092358597",
+        "containerId": "116578477",
+        "containerVersionId": "1",
+        "name": "Empty Container",
+        "container": {
+            "path": "accounts/6092358597/containers/116578477",
+            "accountId": "6092358597",
+            "containerId": "116578477",
+            "name": "gorexcustomer-ios",
+            "publicId": "GTM-NVKSF2K",
+            "usageContext": [
+                "IOS_SDK_5"
+            ],
+            "fingerprint": "1683543061126",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6092358597/containers/116578477/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true
+            },
+            "tagIds": [
+                "GTM-NVKSF2K"
+            ]
+        },
+        "builtInVariable": [
+            {
+                "accountId": "6092358597",
+                "containerId": "116578477",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "6092358597",
+                "containerId": "116578477",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "6092358597",
+                "containerId": "116578477",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            },
+            {
+                "accountId": "6092358597",
+                "containerId": "116578477",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            }
+        ],
+        "fingerprint": "1683527060725",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6092358597/containers/116578477/versions/1?apiLink=version"
+    }
+}

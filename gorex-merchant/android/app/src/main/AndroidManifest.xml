@@ -1,0 +1,43 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.gorexcustomer">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+      android:name=".MainApplication"
+      android:theme="@style/AppTheme"
+      android:label="@string/app_name"
+      android:icon="@mipmap/ic_launcher"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:allowBackup="false"
+        android:exported="true"
+       android:usesCleartextTraffic="true"
+    >
+      <meta-data
+     android:name="com.google.android.geo.API_KEY"
+     android:value="AIzaSyAC8v-kKXGvsLJ5j70V332XFxa-m-WKjzE"/>
+     <meta-data
+         android:name="com.google.android.gms.tagmanager.container_id"
+         android:value="GTM-MXCB94C" />
+     <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+     <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+
+     <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+        android:launchMode="singleTask"
+        android:exported="true"
+        android:windowSoftInputMode="adjustPan"
+        android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+     </activity>
+
+    </application>
+</manifest>

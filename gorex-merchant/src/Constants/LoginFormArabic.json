@@ -1,0 +1,35 @@
+{
+  "fields": [
+    {
+      "id": "1",
+      "fieldType": "text",
+      "isRequired": true,
+      "isUpdate": false,
+      "name": "Mobile Number",
+      "label": "رقم الجوال",
+      "xmlName": "username_or_phone",
+      "popupText": "",
+      "helpNote": "",
+      "placeHolder": "Enter Mobile Number",
+      "errorMessage": "",
+      "value": "",
+      "regex": ""
+    },
+    {
+      "id": "2",
+      "fieldType": "password",
+      "isRequired": true,
+      "isUpdate": false,
+      "name": "Password",
+      "label": "كلمة المرور",
+      "xmlName": "password",
+      "popupText": "",
+      "helpNote": "",
+      "placeHolder": "Enter Password",
+      "errorMessage": "",
+      "value": "",
+      "regex": ""
+    }
+  ],
+  "errorMessages": {}
+}

@@ -1,0 +1,157 @@
+{
+    "fields": [
+      {
+        "row": [
+          {
+            "id": "1",
+            "fieldType": "text",
+            "isRequired": true,
+            "isUpdate": true,
+            "label": "First Name",
+            "name": "first_name",
+            "xmlName": "first_name",
+            "popupText": "",
+            "helpNote": "",
+            "placeHolder": "Enter First Name",
+            "errorMessage": "Field Required!",
+            "value": "",
+            "regex": "^[a-zA-z]+([\\s][a-zA-Z]+)*$"
+          },
+          {
+            "id": "1",
+            "fieldType": "text",
+            "isRequired": true,
+            "isUpdate": true,
+            "label": "Last Name",
+            "name": "last_name",
+            "xmlName": "last_name",
+            "popupText": "",
+            "helpNote": "",
+            "placeHolder": "Enter Last Name",
+            "errorMessage": "Field Required!",
+            "value": "",
+            "regex": "^[a-zA-z]+([\\s][a-zA-Z]+)*$"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "fieldType": "text",
+        "isRequired": false,
+        "isUpdate": true,
+        "label": "Email Address",
+        "name": "email",
+        "xmlName": "email",
+        "popupText": "",
+        "helpNote": "",
+        "placeHolder": "Enter Email Address",
+        "errorMessage": "Field Required!",
+        "value": ""
+      },
+      {
+        "id": "2",
+        "fieldType": "text",
+        "isRequired": true,
+        "isUpdate": false,
+        "label": "Mobile Number",
+        "name": "phone",
+        "xmlName": "phone",
+        "popupText": "",
+        "helpNote": "",
+        "placeHolder": "Enter Mobile Number",
+        "errorMessage": "Field Required!",
+        "value": ""
+      },
+      {
+        "row": [
+          {
+            "id": "4",
+            "fieldType": "date",
+            "isRequired": true,
+            "isUpdate": true,
+            "label": "Date of Birth",
+            "name": "dob",
+            "xmlName": "dob",
+            "popupText": "",
+            "placeHolder": "Select Date of Birth",
+            "helpNote": "",
+            "errorMessage": "Select Valid Date of Birth!",
+            "regex": ""
+          },
+          {
+            "id": "4",
+            "fieldType": "select",
+            "isRequired": true,
+            "isUpdate": true,
+            "label": "Gender",
+            "name": "gender",
+            "xmlName": "gender",
+            "popupText": "",
+            "placeHolder": "Please Select Gender",
+            "helpNote": "",
+            "options": [
+              {
+                "label": "Please Select Gender",
+                "value": ""
+              },
+              {
+                "label": "Male",
+                "value": "male"
+              },
+              {
+                "label": "Female",
+                "value": "female"
+              }
+            ],
+            "errorMessage": "Enter Valid Gender!",
+            "regex": ""
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "fieldType": "text",
+        "isRequired": true,
+        "isUpdate": true,
+        "label": "Address",
+        "name": "address",
+        "xmlName": "address",
+        "popupText": "",
+        "helpNote": "",
+        "placeHolder": "Enter Address",
+        "errorMessage": "Field Required!",
+        "value": ""
+      },
+      {
+        "id": "2",
+        "fieldType": "text",
+        "isRequired": true,
+        "isUpdate": true,
+        "label": "Vehicle License Number",
+        "name": "driving_license_number",
+        "xmlName": "driving_license_number",
+        "popupText": "",
+        "helpNote": "",
+        "placeHolder": "Enter Vehicle License Number",
+        "errorMessage": "Field Required!",
+        "value": ""
+      },
+      {
+        "id": "2",
+        "fieldType": "date",
+        "isRequired": true,
+        "isUpdate": true,
+        "label": "Driving License Expiry",
+        "name": "driving_license_expiry",
+        "xmlName": "driving_license_expiry",
+        "popupText": "",
+        "helpNote": "",
+        "placeHolder": "Enter Driving License Expiry",
+        "errorMessage": "Field Required!",
+        "value": ""
+      }
+    ],
+    "errorMessages": {
+
+    }
+  }
